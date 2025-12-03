@@ -45,12 +45,12 @@
 
 			assigned-clock-rates = <1000000000>, // RP1_PLL_SYS_CORE
 					       <1536000000>, // RP1_PLL_AUDIO_CORE
-					       <200000000>,  // RP1_PLL_SYS
+					       <300000000>,  // RP1_PLL_SYS
 					       <125000000>,  // RP1_PLL_SYS_SEC
 					       <125000000>,  // RP1_CLK_ETH
 					       <61440000>,   // RP1_PLL_AUDIO
 					       <153600000>,  // RP1_PLL_AUDIO_SEC
-					       <200000000>,  // RP1_CLK_SYS
+					       <300000000>,  // RP1_CLK_SYS
 					       <100000000>,  // RP1_PLL_SYS_PRI_PH
 					       // Must match the XOSC frequency
 					       <50000000>, // RP1_CLK_SLOW_SYS
